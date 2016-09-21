@@ -1,0 +1,232 @@
+/* BODY */
+body{color:#D3D3D3;background-color:#141414!important;font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.fluid{overflow-x:hidden}
+#wrap{padding-right:0.5%;padding-bottom:0!important}
+/* NAVIGATION */
+.navbar{min-height:26px;height:26px;position:fixed;width:74.5%;background-color:#282828!important;background-image:none!important}
+.navbar-header .navbar-brand{height:2%;padding-top:0.2%;padding-bottom:0;font-size:0;background-image: url("http://i.imgur.com/wuY6XfX.png");background-repeat:no-repeat;width:100px;margin-top:2px;margin-left:12px}
+.navbar-nav>li>a{height:25px;padding-top:0.2%;padding-bottom:0;line-height:25px}
+#logoutform{height:2%;padding-top:0.2%;padding-bottom:0}
+.navbar-text{margin-top:0;margin-bottom:0}
+.navbar .navbar-inverse .navbar-fixed-top{min-height:20px;height:37px}
+.navbar-form{margin:0;height:20px}
+.navbar-form .form-control{height:20px;margin-bottom:0px!important;margin-top:0px!important}
+/* MAIN */
+#mainpage{padding-top:1%}
+.container-fluid {padding-left: 0px;padding-right: 0px}
+#controlsrow{margin-top:0}
+#leftcontrols{position:fixed;right:0;background-color:#282828!important;width:25.5%;height:100%;border-top:1px solid rgba(0,0,0,0.65)!important;top:90%;padding:0;padding-right:0.5%!important}
+#leftcontrols .btn{margin-top:1.7%;z-index:5;margin-right:0;margin-left:4%}
+#emotelistbtn{background-image: url(//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-ebf60cd72f7aa600-24x18.png)!important}
+#emotelistbtn:hover{background-image:url(//static-cdn.jtvnw.net/jtv_user_pictures/emoticon-28087-src-839c7612f8489616-28x28.png)!important;-webkit-filter:grayscale(1);-webkit-filter:grayscale(100%);filter:gray;filter:grayscale(100%)}
+#emotelistbtn,#newpollbtn{position:static;top:91.5%;float:right;right:0;font-size:0!important;background-position:50%;cursor:pointer;background-repeat:no-repeat;background-color:#1e1e1e;height:3.5%;width:5.5%;margin-left:1%!important;margin-right:-0.4%;max-height:32px;margin-top:10px!important}
+.emote-preview-container{margin:0px}
+#newpollbtn{background-image: url(//i.imgur.com/KDvDhLU.jpg)!important}
+#rightcontrols{width:75%}
+#rightpane{float:left!important;margin-left:-0.6%;width:76.2%}
+#motdrow{display:none}
+#sitefooter{display:none}
+#footer{display:none}
+
+/* USER OPTIONS */
+.modal-body{padding:30px}
+/* PM BAR */
+#pmbar .pm-buffer>div .username{color:#77F}
+#pmbar .pm-buffer>div .timestamp{color:#999}
+/* TBC */
+#login{padding:0.5px 10px}
+textarea.form-control{height:550px}
+::-webkit-scrollbar{min-height:10px;width:6px;background:transparent}
+::-webkit-scrollbar-thumb{background:#D8DFE6;opacity:7;border-radius:1ex;-webkit-border-radius:1ex;box-shadow:0 1px 2px rgba(0,0,0,0.75);-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.75)}
+::-webkit-scrollbar-corner{background:#FFF}
+.row {margin-left: 0px;margin-right: 0px}
+.alert{position:fixed;z-index:6;width:25%;left:25%;top:73%;opacity:0.8}
+#pollwrap>div{position:fixed;z-index:6;left:25%;top:32%;width:25%}
+#chatwrap,#videowrap{margin-bottom:10px}
+#chatwrap{width:25%;height:auto;float:right;padding-right:10px;padding-left:0;position:fixed;right:0;z-index:5;margin-right:10px}
+#chatline,#guestlogin>input,#guestlogin>.input-group-addon{position:fixed;width:20%!important;top:90%!important;margin-left:10px;margin-top:10px;height:4%;padding:0.2% 0.5%;max-height:32px}
+#guestlogin .input-group-addon{min-width:120px;width:5%!important;top:90.8%!important;bottom:6.8%!important;left:77%!important}
+input.form-control[type="text"],input.form-control[type="password"],input.form-control[type="email"],textarea.form-control{background-color:#141414!important;border:solid 1px #333!important}
+#videowrap{width:75%;float:left;margin-right:0}
+.videolist{max-height:720px!important}
+#mediaurl{margin:0!important}
+.embed-responsive.embed-responsive-16by9{width:100%!important;max-height:850px;height:100%;padding-bottom:60%}
+#chatheader{border:0 solid;text-align:left!important;background-color:#282828!important;padding:5px;border-radius:0;border-bottom:1px solid rgba(0,0,0,0.65)!important;position:fixed;width:25.5%;top:0;left:74.5%;height:26px;z-index:9}
+#chatheader .label{margin-right:7px}
+#chatheader>p, #currenttitle{line-height:35px;margin-top:-20px;font-size:26px;font-family:Helvetica Neue,Helvetica,sans-serif;color:#D3D3D3;display:none}
+#messagebuffer{background-color:#1e1e1e!important;overflow-x:hidden;overflow-y:auto;border-top:0 solid #aaa;position:fixed;bottom:10%;right:6.15%;width:19.3%;height:auto!important;top:2%}
+#messagebuffer a{color:#999}
+#messagebuffer .username{color:#6A5ACD}
+#messagebuffer .userlist-op .username{color:#e05b5b!important;-webkit-stroke-color:#e05b5b;-webkit-fill-color:#e05b5b;text-shadow:1px 0 20px #e05b5b}
+#messagebuffer div{border-top:rgba(64,64,64,0.30) 1px solid;border-bottom:rgba(0,0,0,0.5) 1px solid;border-right:1px solid rgba(0,0,0,0.65);margin-top:1px;padding:5px;margin-left:-5px;margin-right:-5px}
+#messagebuffer div.nick-hover{border-left:#FF0000 solid 1px;padding-left:4px}
+.channel-emote{background-color:transparent!important}
+.nick-hover{background-color:#1D1D21}
+#userlist{border-top:0 solid #aaa;background-color:#141414!important;overflow-x:hidden;overflow-y:auto;width:25%;float:right;border-left:1px solid rgba(0,0,0,0.65)!important;padding-left:5px;padding-right:5px;position:fixed;right:0;top:2%;height:auto!important;bottom:10%;left:93.85%;z-index:8;padding-top:15px}
+#userlist,#messagebuffer{border:0 solid #aaa}
+.form-control:focus{border-color:transparent!important;outline:0;-webkit-box-shadow:inset 0 0 0 rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)!important;box-shadow:inset 0 0 0 rgba(0,0,0,.075),0 0 0 rgba(102,175,233,.6)!important}
+.userlist-op{color:#FF69B4}
+.userlist_users{color:#FF69B4}
+.userlist_item{padding:1px;font-size:8pt;font-weight:bold}
+.channel-emote{max-height:52px}
+.nick-highlight{background-color:rgba(255,0,0,0.5)!important;color:#fff}
+.server-whisper{color:green;font-size:9pt}
+#userlisttoggle{margin-left:7px;margin-right:7px;margin-top:0}
+#modflair{display:none}
+#cs-chanlog-filter{height:150px!important;margin-bottom:10px!important}
+#cs-chanlog-text{background-color:#141414!important;color:red;border:0 solid}
+select[multiple],select[size]{margin:0!important}
+.form-control{color:#fff!important;width:100%;border-top:0;background-color:#141414!important;border:solid 1px #333!important}
+#motdwrap{background-color:#1C1E22}
+#currenttitle{border:0}
+#queue{overflow-y:auto}
+table{background-color:#000711}
+.panel-primary .panel-heading{background-color:#377BBF}
+.pm-panel,.pm-panel-placeholder{width:300px}
+.pm-buffer{height:270px!important}
+#voteskip[disabled]{background-color:#6e0000}
+.queue_entry{background-color:rgba(0, 0, 0, 0.15);border-top:rgba(64,64,64,0.30) 1px solid;border-bottom:rgba(0,0,0,0.5) 1px solid!important;border-right:1px solid rgba(0,0,0,0.65);border-left:rgba(64,64,64,0.30) 1px solid;padding:5px}
+.queue_active.queue_temp{background-color:rgba(35, 35, 35, 1);border-top-left-radius:4px;border-top-right-radius:4px}
+.user-dropdown{margin-left:0px}
+#plmeta{border-top:rgba(64,64,64,0.30) 1px solid;border-bottom:rgba(0,0,0,0.5) 1px solid;border-right:1px solid rgba(0,0,0,0.65);border-left:rgba(64,64,64,0.30) 1px solid;padding:5px;background-color:rgba(35, 35, 35, 1)}
+/* TRANSFERRED BACK (BEGIN) */
+.glyphicon{position:relative;top:1px;display:inline-block;font-family:"Glyphicons Halflings";font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.btn-default{background-image:-webkit-linear-gradient(#484e55,#3a3f44 60%,#313539);background-image:-o-linear-gradient(#484e55,#3a3f44 60%,#313539);background-image:-webkit-gradient(linear,left top,left bottom,from(#484e55),color-stop(60%,#3a3f44),to(#313539));background-image:linear-gradient(#6441a5,#6441a5 60%,#6441a5)!important;background-repeat:no-repeat;-webkit-filter:none;filter:none}
+.alert-info{background-color:#383E40;border-color:#3F4344;color:#fff}
+.glyphicon-star-empty,.glyphicon-time,.glyphicon-volume-off{display:inline}
+.profile-box.linewrap{margin-left:-150px;width:150px}
+.server-msg-disconnect{border:1px solid #F00!important}
+.server-msg-reconnect{border:1px solid #0F0!important}
+/* TRANSFERRED BACK (END) */
+/* OURFLAG CHANGES (BEGIN) */
+.unselectable{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+#guestlogin span{position:fixed!important;top:92%!important;margin-top:1.7%!important;height:30px;left:84%!important}
+.userlist_item .profile-box{margin-left:-10vw;width:15vw}
+#guestlogin + .profile-box{top:20vh!important;left:1vw!important}
+#messagebuffer>div>span>strong.username:before{position:relative;top:3px;display:inline-block;margin-top:-6px}
+/* CUSTOM CHAT FILTERS */
+#donate-container{background-color:#444;border:#000 1px solid;width:240px;height:34px;display:inline-block;margin:2px;text-align:center;color:#C7C7C7;font-size:20px;vertical-align:middle;overflow:hidden;padding:0px!important}
+#donate-span{float:left;margin-top:4px;margin-left:6px}
+#donate-container>img{height:30px}
+.rainbow{background-image:-webkit-gradient(linear,left top,right top,color-stop(0,#f22),color-stop(0.15,#f2f),color-stop(0.3,#22f),color-stop(0.45,#2ff),color-stop(0.6,#2f2),color-stop(0.75,#2f2),color-stop(0.9,#ff2),color-stop(1,#f22));background-image:gradient(linear,left top,right top,color-stop(0,#f22),color-stop(0.15,#f2f),color-stop(0.3,#22f),color-stop(0.45,#2ff),color-stop(0.6,#2f2),color-stop(0.75,#2f2),color-stop(0.9,#ff2),color-stop(1,#f22));color:transparent;-webkit-background-clip:text;background-clip:text}
+.fire{text-shadow:0 0 2px #fefcc9,1px -1px 3px #feec85,-2px -2px 4px #ffae34,2px -4px 5px #ec760c,-2px -6px 6px #cd4606,0 -8px 7px #973716,1px -9px 8px #451b0e}
+/* OURFLAG CHANGES (END) */
+
+/* USERNAME (PLEB) COLORS */
+.chat-msg-MiserlyBat .username{color:#39F!important}
+.chat-msg-Xanistus .username{color:#09d9f6!important}
+.chat-msg-manipulated .username{color:#FF0!important}
+.chat-msg-rank1beyblader .username{color:#009999!important}
+.chat-msg-Hateful .username{color: #fdff45!important}
+.chat-msg-ryssh .username{color:#008080!important}
+.chat-msg-rasser3500 .username{color:#ff0000!important}
+.chat-msg-lTomv .username{color:#1A1E76!important}
+.chat-msg-Ambrozio .username{color:#FFFFFF!important}
+.chat-msg-RULIK .username{color:#808080!important}
+.chat-msg-Delete_Me_Please .username{color:#cc3300!important}
+.chat-msg-Australian_ben .username{color:#ffad30!important}
+.chat-msg-Lipplo123 .username{color:#09F!important}
+.chat-msg-animu4lyfe .username{color:#F69!important}
+.chat-msg-Fixxine .username{color:#690 !important}
+.chat-msg-juicy_butthole .username{color:#ff0066!important}
+.chat-msg-Joggelito .username{color:#369ab0!important}
+.chat-msg-imafag .username{color:#f3c!important}
+.chat-msg-diabetestype2 .username{color:#1A1A1A!important}
+.chat-msg-Kirisaite .username{color:#46c2c4!important}
+.chat-msg-Flaappy .username{color:#87CEFA!important}
+.chat-msg-Fjomparen .username{color:#FF4500!important}
+.chat-msg-Potatoskinz .username{color:#4DFFC3!important}
+.chat-msg-Fredde253 .username{color:#0FF!important}
+.chat-msg-worfeh2 .username{color:#F06!important}
+.chat-msg-OurFlagIsBot .username{color:#888!important}
+.chat-msg-doctorKKona .username{color:#59044A!important}
+.chat-msg-Lipplo123 .username{color:#0099ff!important}
+.chat-msg-Lipplo .username{color:#0099ff!important}
+.chat-msg-AxelIW .username{color:#ffff1a!important}
+.chat-msg-bayweab .username{color:#ff99ff!important}
+.chat-msg-DontDieToday .username{color:#09C!important}
+.chat-msg-Blazekind .username{color:#CA7F1D!important}
+.chat-msg-Chokladmos .username{color:#aa64ea!important}
+.chat-msg-Possedi .username{color:#66ccff!important}
+.chat-msg-Ziphee .username{color:#C00!important}
+.chat-msg-end0ftime .username{color:#213F5F!important}
+.chat-msg-SlothsHaveFeelings .username{color:#00FF97!important}
+.chat-msg-howeh .username{color:#01DF01!important}
+.chat-msg-Batman24 .username{color:#09C!important}
+.chat-msg-zulagamir .username{color:#0F0!important}
+.chat-msg-Sceech .username{color:#004D39!important}
+.chat-msg-Wrexomania .username{color:#ffffff!important}
+.chat-msg-demotech .username{color:#b30000!important}
+.chat-msg-WutFace .username{color:#093!important}
+.chat-msg-skivarah .username{color:#FF1F5E!important}
+.chat-msg-RareParrot .username{color:#009356!important}
+.chat-msg-PowerfulBeastman .username{color:#FFA200!important}
+.chat-msg-AlexMilonas .username{color:#F00!important}
+.chat-msg-djheisenberg .username{color:#FFC!important}
+.chat-msg-FartGarfunkle_ .username{color:#FC0!important}
+.chat-msg-swiftyisthereason .username{color:#ff0000!important}
+.chat-msg-sbrg0 .username{color:#E5005C!important}
+.chat-msg-heisen .username{color:#093!important}
+.chat-msg-Xanith .username{color:#6495ED!important}
+.chat-msg-ratsinthechat .username{color:#CF3!important}
+.chat-msg-Doctorstronk .username{color:#9ACD32!important}
+.chat-msg-rockaero .username{color:#0F0!important}
+.chat-msg-Blex__ .username{color:#DAA520!important}
+.chat-msg-ElbeastoRotMG .username{color:#FF69B4!important}
+.chat-msg-OurFlagIsMined .username{color:#C0C!important}
+.chat-msg-taake66 .username{color:#e5e5e5!important}
+.chat-msg-BraveLittle_Toaster .username{color:#008000!important}
+.chat-msg-Future_Cossack .username{color:#10490e!important}
+.chat-msg-Nawwz .username{color:#f20d80!important}
+.chat-msg-lv12Paladin .username{color:#f6f!important}
+.chat-msg-Joggelito .username{color:#00b38f!important}
+.chat-msg-Stoneflowers .username{display:none}
+.chat-msg-Stoneflowers>span:nth-last-of-type(1):before {content:"StoneFlowers: ";color:#9ACD32;font-weight:700}
+/* USERNAME MOD GLOWS */
+.chat-msg-MiserlyBat .username{color:#39F!important;text-shadow:1px 0 20px #39F}
+.chat-msg-PokeBattles .username{color:#b80934!important;text-shadow:1px 0 10px #ff33cc}
+.chat-msg-Magaere .username{color:#e05b5b!important;text-shadow:1px 0 20px #e05b5b}
+.chat-msg-phishstickingtonz .username{color:#FF69B4!important;text-shadow:1px 0 20px #FF69B4}
+.chat-msg-WizardKellyJAHA .username{color:red!important;text-shadow:1px 0 20px red}
+.chat-msg-Sylpheii .username{color:#0FF!important;text-shadow:1px 0 20px #0FF}
+.chat-msg-pokegaard .username{color:#00FF7F!important;text-shadow:1px 0 20px #00FF7F}
+.chat-msg-Arendiko .username{color:#1E90FF!important;text-shadow:1px 0 20px #1E90FF}
+.chat-msg-RoniSaysWoot .username{color:#B22222!important;text-shadow:1px 0 10px #B22222}
+.chat-msg-ImJustAnnoyed .username{color:#000000!important;text-shadow:1px 0 10px #000000}
+.chat-msg-Flaappy .username{color:#87CEFA!important;text-shadow:1px 0 20px #87CEFA}
+.chat-msg-pokegaard{color:#f5f5f5!important;text-shadow:1px 0 20px #020202}
+.chat-msg-Deluxe .username{color:#530024!important;text-shadow:1px 0 30px #00b8ff}
+.chat-msg-Alcovex .username{color:#130d06!important;text-shadow:1px 0 20px #4d3319}
+.chat-msg-NameCaller .username{color:#530024!important;text-shadow:1px 0 10px #00b8ff}
+.chat-msg-Dawok .username{color:#FF0!important;text-shadow:1px 0 10px #FF0}
+
+/* USERLIST MOD COLORS */
+.userlist-OurFlagIsMined{color:#C0C!important}
+.userlist-RoniSaysWoot{color:#B22222!important;text-shadow:1px 0 10px #B22222}
+.userlist-PokeBattles{color:#b80934!important;text-shadow:1px 0 10px #ff33cc}
+.userlist-Flaappy{color:#87CEFA!important;text-shadow:1px 0 10px #00b8ff}
+.userlist-Alcovex{color:#130d06!important;text-shadow:1px 0 10px #4d3319}
+.userlist-pokegaard{color:#00FF7F!important;text-shadow:1px 0 10px #00FF7F}
+.userlist-Arendiko{color:#1E90FF!important;text-shadow:1px 0 10px #1E90FF}
+.userlist-Dawok{color:#FF0!important;text-shadow:1px 0 10px #FF0}
+
+/* USERNAME MOD ICONS */
+.chat-msg-PokeBattles .username:before{content:url(//i.imgur.com/4E94sRI.gif)!important} 
+.chat-msg-Wrexomania .username:before{content:url(//i.imgur.com/Z4Z7ZlJ.gif)!important}
+.chat-msg-OurFlagIsMined .username:before{content:url(//i.imgur.com/Uf6dWbt.png)!important}
+.chat-msg-howeh .username:before{content:url(//i.imgur.com/kfkXNfn.png)!important}
+.chat-msg-Alcovex .username:before{content:url(//i.imgur.com/aNEdW9R.png)!important}
+.chat-msg-pokegaard .username:before{content:url(//i.imgur.com/OUYwV4o.png)!important} 
+.chat-msg-Deluxe .username:before{content:url(//i.imgur.com/78DMCzA.png)!important}
+.chat-msg-Flaappy .username:before{content:url(//i.imgur.com/wMI9I5r.gif)!important}
+.chat-msg-Dawok .username:before{content:url(//i.imgur.com/NIi7bKX.png)!important}
+.chat-msg-RoniSaysWoot .username:before{content:url(//i.imgur.com/UrtDBbr.gif)!important}
+.chat-msg-OurFlagIsBot .username:before{content:url(https://cdn.betterttv.net/tags/bot.png)!important}
+.chat-msg-Xaekai .username:before{content:url(//i.imgur.com/AfBfRB7.png)!important}
+
+/* Defaults */
+#messagebuffer .userlist_owner .username:before{content:url(//i.imgur.com/B9IhHew.png)}
+#messagebuffer .userlist_op .username:before{content:url(//i.imgur.com/5LQvVIy.gif)!important}
+
+/* resize Twitter emotes */
+img[src^="https://twemoji.maxcdn.com"]{height:28px}
